@@ -1,0 +1,54 @@
+<head>
+	   <link href="{{=URL('static','css/bootstrap.min.css')}}" rel="stylesheet">
+	   <style type="text/css">
+body{
+    background: url('{{=URL('static','images/offline.png')}}') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+	   </style>
+</head>
+<body>
+<h1>
+<form name="redirect">
+<center>
+<font face="Arial" color="#FFFF66"><b>You will be redirected to the home page in<br><br>
+<form>
+<input type="text" size="1" name="redirect2">
+</form>
+seconds</b></font>
+</center>
+</h1>
+<script>
+<!--
+
+/*
+Count down then redirect script
+By JavaScript Kit (http://javascriptkit.com)
+Over 400+ free scripts here!
+*/
+
+//change below target URL to your own
+var targetURL="{{=URL('default','index')}}"
+//change the second to start counting down from
+var countdownfrom=7
+
+
+var currentsecond=document.redirect.redirect2.value=countdownfrom+1
+function countredirect(){
+if (currentsecond!=1){
+currentsecond-=1
+document.redirect.redirect2.value=currentsecond
+}
+else{
+window.location=targetURL
+return
+}
+setTimeout("countredirect()",1000)
+}
+
+countredirect()
+//-->
+</script>
+</body>

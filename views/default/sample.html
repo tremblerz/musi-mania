@@ -1,0 +1,40 @@
+<form name="redirect">
+<center>
+<font face="Arial"><b>You will be redirected to the script in<br><br>
+<form>
+<input type="text" size="3" name="redirect2">
+</form>
+seconds</b></font>
+</center>
+
+<script>
+<!--
+
+/*
+Count down then redirect script
+By JavaScript Kit (http://javascriptkit.com)
+Over 400+ free scripts here!
+*/
+
+//change below target URL to your own
+var targetURL="http://javascriptkit.com"
+//change the second to start counting down from
+var countdownfrom=10
+
+
+var currentsecond=document.redirect.redirect2.value=countdownfrom+1
+function countredirect(){
+if (currentsecond!=1){
+currentsecond-=1
+document.redirect.redirect2.value=currentsecond
+}
+else{
+window.location=targetURL
+return
+}
+setTimeout("countredirect()",1000)
+}
+
+countredirect()
+//-->
+</script>

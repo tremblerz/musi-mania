@@ -1,0 +1,386 @@
+(dp1
+S'output'
+p2
+S'missing "pass" in view'
+p3
+sS'layer'
+p4
+S'ParserContainer'
+p5
+sS'code'
+p6
+S'response.write(\'<!DOCTYPE html>\\n<html lang="en">\\n  <head>\\n    <meta charset="utf-8">\\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\\n    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">\\n    <meta name="author" content="GeeksLabs">\\n    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">\\n    <link rel="shortcut icon" href="img/favicon.png">\\n\\n    <title>Total Entertainment</title>\\n    <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/bootstrap.min.css\'))\nresponse.write(\'" rel="stylesheet">\\n    <!-- bootstrap theme -->\\n    <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/bootstrap-theme.css\'))\nresponse.write(\'" rel="stylesheet">\\n    <!--external css-->\\n    <!-- font icon -->\\n    <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/elegant-icons-style.css\'))\nresponse.write(\'" rel="stylesheet" />\\n    <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/font-awesome.min.css\'))\nresponse.write(\'" rel="stylesheet" />\\n    <!-- owl carousel -->\\n   <!-- <link rel="stylesheet" href="\', escape=False)\nresponse.write(URL(\'static\',\'css/owl.carousel.css\'))\nresponse.write(\'" type="text/css">-->\\n  <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/jquery-jvectormap-1.2.2.css\'))\nresponse.write(\'" rel="stylesheet">\\n    <!-- Custom styles -->\\n  <link rel="stylesheet" href="\', escape=False)\nresponse.write(URL(\'static\',\'css/fullcalendar.css\'))\nresponse.write(\'">\\n  <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/widgets.css\'))\nresponse.write(\'" rel="stylesheet">\\n    <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/style.css\'))\nresponse.write(\'" rel="stylesheet">\\n    <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/style-responsive.css\'))\nresponse.write(\'" rel="stylesheet" />\\n  <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/xcharts.min.css\'))\nresponse.write(\'" rel=" stylesheet">  \\n  <link href="\', escape=False)\nresponse.write(URL(\'static\',\'css/jquery-ui-1.10.4.min.css\'))\nresponse.write(\'" rel="stylesheet">\\n  <link rel="stylesheet" type="text/css" href="\', escape=False)\nresponse.write(URL(\'static\',\'css/bootstrap-select.css\'))\nresponse.write(\'">\\n    <script type="text/javascript" src="\', escape=False)\nresponse.write(URL(\'static\',\'js/jquery-1.9.1.min.js\'))\nresponse.write(\'"></script>\\n    <script type="text/javascript" src="\', escape=False)\nresponse.write(URL(\'static\',\'js/jssor.slider.mini.js\'))\nresponse.write(\'"></script>\\n    <script type="text/javascript" src="\', escape=False)\nresponse.write(URL(\'static\',\'js/web2py.js\'))\nresponse.write(\'"></script>\\n        <script type="text/javascript" src="\', escape=False)\nresponse.write(URL(\'static\',\'js/bootstrap-select.js\'))\nresponse.write(\'"></script>\\n \\n\\n\\n<head>\\n  <style type="text/css">\\n    .rating {\\n    float:left;\\n}\\n\\n/* :not(:checked) is a filter, so that browsers that don\\xe2\\x80\\x99t support :checked don\\xe2\\x80\\x99t \\n   follow these rules. Every browser that supports :checked also supports :not(), so\\n   it doesn\\xe2\\x80\\x99t make the test unnecessarily selective */\\n.rating:not(:checked) > input {\\n    position:absolute;\\n    top:-9999px;\\n    clip:rect(0,0,0,0);\\n}\\n\\n.rating:not(:checked) > label {\\n    float:right;\\n    width:1.172em;\\n    padding:0 .1em;\\n    overflow:hidden;\\n    white-space:nowrap;\\n    cursor:pointer;\\n    font-size:200%;\\n    line-height:1.2;\\n    color:#ddd;\\n    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);\\n}\\n\\n.rating:not(:checked) > label:before {\\n    content: "\\\\2605";\\n}\\n\\n.rating > input:checked ~ label {\\n    color: #f70;\\n    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);\\n}\\n\\n.rating:not(:checked) > label:hover,\\n.rating:not(:checked) > label:hover ~ label {\\n    color: gold;\\n    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);\\n}\\n\\n.rating > input:checked + label:hover,\\n.rating > input:checked + label:hover ~ label,\\n.rating > input:checked ~ label:hover,\\n.rating > input:checked ~ label:hover ~ label,\\n.rating > label:hover ~ input:checked ~ label {\\n    color: #ea0;\\n    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);\\n}\\n\\n.rating > label:active {\\n    position:relative;\\n    top:2px;\\n    left:2px;\\n}\\n  </style>\\n\\n\\n\\n\\n  </head>\\n\\n  <body>\\n  <!-- container section start -->\\n\\n\\n    <script>\\n        jQuery(document).ready(function ($) {\\n            \\n            var jssor_1_options = {\\n              $AutoPlay: true,\\n              $AutoPlaySteps: 3,\\n              $SlideDuration: 200,\\n              $SlideWidth: 132,\\n              $SlideSpacing: 2,\\n              $Cols: 6,\\n              $ArrowNavigatorOptions: {\\n                $Class: $JssorArrowNavigator$,\\n                $Steps: 4\\n              },\\n              $BulletNavigatorOptions: {\\n                $Class: $JssorBulletNavigator$,\\n                $SpacingX: 1,\\n                $SpacingY: 1\\n              }\\n            };\\n            \\n            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);\\n            \\n            //responsive code begin\\n            //you can remove responsive code if you don\\\'t want the slider scales while window resizes\\n            function ScaleSlider() {\\n                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;\\n                if (refSize) {\\n                    refSize = Math.min(refSize, 1300);\\n                    jssor_1_slider.$ScaleWidth(refSize);\\n                }\\n                else {\\n                    window.setTimeout(ScaleSlider, 30);\\n                }\\n            }\\n            ScaleSlider();\\n            $(window).bind("load", ScaleSlider);\\n            $(window).bind("resize", ScaleSlider);\\n            $(window).bind("orientationchange", ScaleSlider);\\n            //responsive code end\\n        });\\n    </script>\\n\\n    <style>\\n        \\n        /* jssor slider bullet navigator skin 03 css */\\n        /*\\n        .jssorb03 div           (normal)\\n        .jssorb03 div:hover     (normal mouseover)\\n        .jssorb03 .av           (active)\\n        .jssorb03 .av:hover     (active mouseover)\\n        .jssorb03 .dn           (mousedown)\\n        */\\n        .jssorb03 {\\n            position: absolute;\\n        }\\n        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {\\n            position: absolute;\\n            /* size of bullet elment */\\n            width: 21px;\\n            height: 21px;\\n            text-align: center;\\n            line-height: 21px;\\n            color: white;\\n            font-size: 12px;\\n            background: url(\', escape=False)\nresponse.write(URL(\'static\',\'img/b03.png\'))\nresponse.write(\') no-repeat;\\n            overflow: hidden;\\n            cursor: pointer;\\n        }\\n        .jssorb03 div { background-position: -5px -4px; }\\n        .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }\\n        .jssorb03 .av { background-position: -65px -4px; }\\n        .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }\\n\\n        /* jssor slider arrow navigator skin 03 css */\\n        /*\\n        .jssora03l                  (normal)\\n        .jssora03r                  (normal)\\n        .jssora03l:hover            (normal mouseover)\\n        .jssora03r:hover            (normal mouseover)\\n        .jssora03l.jssora03ldn      (mousedown)\\n        .jssora03r.jssora03rdn      (mousedown)\\n        */\\n        .jssora03l, .jssora03r {\\n            display: block;\\n            position: absolute;\\n            /* size of arrow element */\\n            width: 55px;\\n            height: 55px;\\n            cursor: pointer;\\n            background: url(\', escape=False)\nresponse.write(URL(\'static\',\'img/a03.png\'))\nresponse.write(\') no-repeat;\\n            overflow: hidden;\\n        }\\n        .jssora03l { background-position: -3px -33px; }\\n        .jssora03r { background-position: -63px -33px; }\\n        .jssora03l:hover { background-position: -123px -33px; }\\n        .jssora03r:hover { background-position: -183px -33px; }\\n        .jssora03l.jssora03ldn { background-position: -243px -33px; }\\n        .jssora03r.jssora03rdn { background-position: -303px -33px; }\\n    </style>\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n  <section id="container" class="">\\n     \\n      \\n      <header class="header my-green-bg">\\n            <div class="toggle-nav">\\n                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>\\n            </div>\\n\\n            <!--logo start-->\\n            <a href="\', escape=False)\nresponse.write(URL(\'index.html\'))\nresponse.write(\'" class="logo"><strong>total&nbsp;&nbsp;&nbsp;<span class="lite">entertainment</span></strong></a>\\n            <!--logo end-->\\n\\n            <div class="nav search-row" id="top_menu">\\n                <!--  search form start -->\\n                <ul class="nav top-menu">                    \\n                    <li>\\n                        <form class="navbar-form" action="#" enctype="multipart/form-data" method="post">\\n                            <input class="form-control" placeholder="Search for your favourite Songs and Videos" type="text" name="query">\\n                            \\n                        <select name="option" class = "selectpicker" data-style = "btn-primary" value="5">\\n                            <option value="V">Video</option>\\n                            <option value="A">Audio</option>\\n                        </select>\\n                            <div style="display:none;">\\n                              <input name="_formkey" type="hidden" value="\', escape=False)\nresponse.write(form.formkey)\nresponse.write(\'" />\\n                              <input name="_formname" type="hidden" value="no_table/create" />\\n                            </div>\\n                        </form>\\n                    </li>                    \\n                </ul>\\n                <!--  search form end -->                \\n            </div>\\n            <div class="top-nav notification-row">                \\n                <!-- notificatoin dropdown start-->\\n                <ul class="nav pull-right top-menu">\\n                    \\n                    <!-- user login dropdown start-->\\n                    \\n                    <li class="dropdown">\\n                    \', escape=False)\nif auth.is_logged_in():\n    response.write(\'\\n                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">\\n                            <span class="profile-ava">\\n                                <img alt="" src="\', escape=False)\n    response.write(URL(\'static\',\'images/avatar-mini2.jpg\'))\n    response.write(\'">\\n                            </span>\\n                            <span class="username">Yo \', escape=False)\n    response.write(auth.user.first_name)\n    response.write(\'&nbsp;<strong>!</strong></span>\\n                            <b class="caret"></b>\\n                        </a>\\n\\n                        <ul class="dropdown-menu extended logout">\\n                            <div class="log-arrow-up"></div>\\n                            <li class="eborder-top">\\n                                <a href="\', escape=False)\n    response.write(URL(\'default\',\'user/register\'))\n    response.write(\'"><i class="icon_profile"></i> My Profile</a>\\n                            </li>\\n                            <li>\\n                                <a href="\', escape=False)\n    response.write(URL(\'default\',\'user/register\'))\n    response.write(\'"><i class="icon_mail_alt"></i> My Favourite</a>\\n                            </li>\\n                            <li>\\n                                <a href="\', escape=False)\n    response.write(URL(\'default\',\'user/logout\'))\n    response.write(\'"><i class="icon_clock_alt"></i> Logout</a>\\n                            </li>\\n                        </ul>\\n                      \', escape=False)\nelse:\n    response.write(\'\\n                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">\\n                          <!--  <span class="profile-ava">-->\\n                                <img alt="" src="\', escape=False)\n    response.write(URL(\'static\',\'images/key.png\'))\n    response.write(\'">\\n                          <!--  </span> -->\\n                            <span class="username">LogIn</span>\\n                            <b class="caret"></b>\\n                        </a>\\n                      <ul class="dropdown-menu extended logout">\\n                            <div class="log-arrow-up"></div>\\n                            <li class="eborder-top">\\n                                <a href="\', escape=False)\n    response.write(URL(\'user.html\'))\n    response.write(\'"><i class="icon_profile"></i>Log In</a>\\n                            </li>\\n                            <li>\\n                                <a href="\', escape=False)\n    response.write(URL(\'default\',\'user/register\'))\n    response.write(\'"><i class="icon_mail_alt"></i>Register</a>\\n                            </li>\\n                            <li>\\n                                <a href="\', escape=False)\n    response.write(URL(\'default\',\'user/request_reset_password\'))\n    response.write(\'"><i class="icon_clock_alt"></i>Forgot Password</a>\\n                            </li>\\n                       </ul> \\n                      \', escape=False)\n    pass\nresponse.write(\'\\n                    </li>\\n                    <!-- user login dropdown end -->\\n                </ul>\\n                <!-- notificatoin dropdown end-->\\n            </div>\\n      </header>      \\n      <!--header end-->\\n\\n      <!--sidebar start-->\\n        <aside>\\n          <div id="sidebar"  class="nav-collapse ">\\n              <!-- sidebar menu start-->\\n              <ul class="sidebar-menu">                \\n                  <li class="active">\\n                      <a class="" href="\', escape=False)\nresponse.write(URL(\'default\',\'index.html\'))\nresponse.write(\'">\\n                          <i class="icon_house_alt"></i>\\n                          <span>Welcome </span>\\n                      </a>\\n                  </li>\\n          <li class="sub-menu">\\n                      <a href="javascript:;" class="">\\n                          <i class="fa fa-heart"></i>\\n                          <span>Favourite</span>\\n                          <span class="menu-arrow arrow_carrot-right"></span>\\n                      </a>\\n                      <ul class="sub">\\n                          <li><a class="" href="\', escape=False)\nresponse.write(URL(\'default\',\'favsong.html\'))\nresponse.write(\'">Songs</a></li>                          \\n                          <li><a class="" href="\', escape=False)\nresponse.write(URL(\'default\',\'favideo.html\'))\nresponse.write(\'">Videos</a></li>\\n                      </ul>\\n                  </li>       \\n                  <li class="sub-menu">\\n                      <a href="javascript:;" class="">\\n                          <i class="icon_desktop"></i>\\n                          <span>Playlists</span>\\n                          <span class="menu-arrow arrow_carrot-right"></span>\\n                      </a>\\n                      <ul class="sub">\\n                          <li><a class="" href="general.html">Create</a></li>\\n                          <li><a class="" href="buttons.html">Your Playlist1</a></li>\\n                          <li><a class="" href="\', escape=False)\nresponse.write(URL(\'default\',\'spons_playlist.html\'))\nresponse.write(\'">Sponsered</a></li>\\n                      </ul>\\n                  </li>\\n                  <li>\\n                      <a class="" href="\', escape=False)\nresponse.write(URL(\'default\',\'widgets.html\'))\nresponse.write(\'">\\n                          <i class="icon_genius"></i>\\n                          <span>See All</span>\\n                      </a>\\n                  </li>\\n                  <li>                     \\n                      <a class="" href="chart-chartjs.html">\\n                          <i class="fa fa-music"></i>\\n                          <span>Top Charts</span>\\n                          \\n                      </a>\\n                                         \\n                  </li>\\n                             \\n                  <li class="sub-menu">\\n                      <a href="javascript:;" class="">\\n                          <i class="icon_table"></i>\\n                          <span>Discover</span>\\n                          <span class="menu-arrow arrow_carrot-right"></span>\\n                      </a>\\n                      <ul class="sub">\\n                       <li><a class="" href="\', escape=False)\nresponse.write(URL(\'create.html\'))\nresponse.write(\'">Create</a></li>\\n                          <li><a class="" href="\', escape=False)\nresponse.write(URL(\'list.html\'))\nresponse.write(\'">Your Playlist1</a></li>\\n                          <li><a class="" href="\', escape=False)\nresponse.write(URL(\'spons_playlist.html\'))\nresponse.write(\'">Sponsered</a></li>\\n                      </ul>\\n                  </li>\\n                  \\n                  <li class="sub-menu">\\n                      <a href="javascript:;" class="">\\n                          <i class="icon_documents_alt"></i>\\n                          <span>My Profile</span>\\n                          <span class="menu-arrow arrow_carrot-right"></span>\\n                      </a>\\n                      <ul class="sub">                          \\n                          <li><a class="" href="profile.html">Profile</a></li>\\n                          <li><a class="" href="login.html"><span>My History</span></a></li>\\n                          <li><a class="" href="404.html">My Uploads</a></li>\\n                      </ul>\\n                  </li>\\n                  \\n              </ul>\\n              <!-- sidebar menu end-->\\n          </div>\\n      </aside>\\n     <!--sidebar end-->\\n      \\n      <!--main content start-->\\n      <section id="main-content">\\n          <section class="wrapper">            \\n              <!--overview start-->\\n              <!--\\n           <div class="row">\\n        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><a href="">\\n          <div class="info-box blue-bg boxes">\\n            <i class="fa fa-music"></i>\\n            <div class="count">New</div>\\n            <div class="title">Albums</div>\\n          </div>\\n        </div>\\n        </a>\\n        \\n        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><a href="">\\n          <div class="info-box brown-bg boxes">\\n            <i class="fa fa-upload"></i>\\n            <div class="count">My</div>\\n            <div class="title">Uploads</div>            \\n          </div>\\n        </div>\\n        </a>\\n        \\n        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><a href="">\\n          <div class="info-box dark-bg boxes">\\n            <i class="fa fa-thumbs-o-up"></i>\\n            <div class="count">Most</div>\\n            <div class="title">Rated</div>            \\n          </div>\\n        </div>\\n        </a>\\n        \\n        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><a href="">\\n          <div class="info-box green-bg boxes">\\n            <i class="fa fa-play-circle-o"></i>\\n            <div class="count">Live</div>\\n            <div class="title">Radio</div>            \\n          </div>\\n        </div>\\n        </a>\\n        \\n      </div>\\n        -->\\n<h1>\', escape=False)\nresponse.write(song.title)\nresponse.write(\'\\n</h1>\\n<h2>\\n\', escape=False)\nif song.category==\'Audio\':\n    response.write(\'\\n<!--<audio controls><div width="50%">\\n                <source src=\', escape=False)\n    #=song.url\n    response.write(\' type="audio/mpeg">\\n                \', escape=False)\n    #print song.url\n    response.write(\'\\n                Your browser does not support the audio tag.</div>\\n            </audio>  -->\\n    <div id="1">\\n    \', escape=False)\n    import soundcloud\n    response.write(\'\\n    \', escape=False)\n    client = soundcloud.Client(client_id=\'f4e257503f0990527a6e17e14158076e\')\n    response.write(\'\\n    \', escape=False)\n    url=song.url\n    response.write(\'\\n    \', escape=False)\n    try:\n        response.write(\'\\n    \', escape=False)\n        embed_info = client.get(\'/oembed\', url=url)\n        response.write(\'\\n    \', escape=False)\n    except:\n        response.write(\'\\n    \', escape=False)\n        redirect(URL(\'default\',\'no_net\'))\n        response.write(\'\\n    \', escape=False)\n        response.write(XML(embed_info.html))\n        response.write(\'\\n    </div>\\n\', escape=False)\n    else:\n        response.write(\'\\n<div id="player" class = "col-xs-8"></div>\\n\\n    <script>\\n      // 2. This code loads the IFrame Player API code asynchronously.\\n      var tag = document.createElement(\\\'script\\\');\\n\\n      tag.src = "https://www.youtube.com/iframe_api";\\n      var firstScriptTag = document.getElementsByTagName(\\\'script\\\')[0];\\n      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\\n\\n      // 3. This function creates an <iframe> (and YouTube player)\\n      //    after the API code downloads.\\n      var player;\\n      function onYouTubeIframeAPIReady() {\\n        player = new YT.Player(\\\'player\\\', {\\n          height: \\\'390\\\',\\n          width: \\\'640\\\',\\n          videoId: \\\'\', escape=False)\n        response.write(song.url)\n        response.write("\',\\n          events: {\\n            \'onReady\': onPlayerReady,\\n            \'onStateChange\': onPlayerStateChange\\n          }\\n        });\\n      }\\n\\n      // 4. The API will call this function when the video player is ready.\\n      function onPlayerReady(event) {\\n        event.target.playVideo();\\n      }\\n\\n      // 5. The API calls this function when the player\'s state changes.\\n      //    The function indicates that when playing a video (state=1),\\n      //    the player should play for six seconds and then stop.\\n      var done = false;\\n      function onPlayerStateChange(event) {\\n        if (event.data == YT.PlayerState.PLAYING && !done) {\\n          //setTimeout(stopVideo, 6000);\\n          done = true;\\n        }\\n      }\\n      function stopVideo() {\\n        player.stopVideo();\\n      }\\n    </script>\\n", escape=False)\n        pass\n    response.write(\'\\n\\n<fieldset class="rating">\\n    <legend>Please rate:</legend>\\n    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>\\n    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>\\n    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>\\n    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>\\n    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>\\n</fieldset>\\n\\n<div style="padding-top:10%;">\\n\', escape=False)\n    response.write(A(\'Click here \', _href=URL(\'mark_favourite\',args=song.id)))\n    response.write(\'&nbsp;to Mark it as favourite</div>\\n</h2>\\n<div class="col-xs-6">\\n<h3>\\nLikes <span id="likes">\', escape=False)\n    response.write(Likes)\n    response.write(\'</span>\\n<button type="button" class="btn btn-warning" onclick="ajax(\\\'\', escape=False)\n    response.write(URL(\'vote\',args=(song.id)))\n    response.write(\'\\\',[],\\\'likes\\\')">\\n  Like\\n</button>\\n</h3>\\n\', escape=False)\n    for comment in comments:\n        response.write(\'\\n<br>\\n<strong>\', escape=False)\n        response.write(comment.created_by.first_name)\n        response.write(\'</strong> said <i>\', escape=False)\n        #prettydate(comment.created_on)\n        response.write(\'</i><br>\\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\', escape=False)\n        response.write(comment.body)\n        response.write(\'\\n\', escape=False)\n        pass\n    response.write(\'\\n<h4>\\n\', escape=False)\n    response.write(formcmnt)\n    response.write(\'\\n</h4>\\n\\n\\n              <!-- project team & activity start -->\\n          \\n              <!-- project team & activity end -->\\n</div>\\n          </section>\\n      </section>\\n      <!--main content end-->\\n  </section>\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n  <!-- container section start -->\\n\\n    <!-- javascripts -->\\n        <!-- javascripts -->\\n    <script type="text/javascript">\\n\\n    </script>\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery-ui-1.10.4.min.js\'))\n    response.write(\'"></script>\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery-1.8.3.min.js\'))\n    response.write(\'"></script>\\n    <script type="text/javascript" src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery-ui-1.9.2.custom.min.js\'))\n    response.write(\'"></script>\\n    <script type="text/javascript" src="\', escape=False)\n    response.write(URL(\'static\',\'js/bootbox.js\'))\n    response.write(\'"></script>\\n    <!-- bootstrap -->\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/bootstrap.min.js\'))\n    response.write(\'"></script>\\n    <!-- nice scroll -->\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.scrollTo.min.js\'))\n    response.write(\'"></script>\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.nicescroll.js\'))\n    response.write(\'" type="text/javascript"></script>\\n    <!-- charts scripts -->\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.sparkline.js\'))\n    response.write(\'" type="text/javascript"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.rateit.min.js\'))\n    response.write(\'"></script>\\n    <!-- custom select -->\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.customSelect.min.js\'))\n    response.write(\'" ></script>\\n    <!--custome script for all page-->\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/scripts.js\'))\n    response.write(\'"></script>\\n    <!-- custom script for this page-->\\n    <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/sparkline-chart.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery-jvectormap-1.2.2.min.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery-jvectormap-world-mill-en.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/xcharts.min.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.autosize.min.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.placeholder.min.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/gdp-data.js\'))\n    response.write(\'"></script> \\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/morris.min.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/sparklines.js\'))\n    response.write(\'"></script> \\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/charts.js\'))\n    response.write(\'"></script>\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/jquery.slimscroll.min.js\'))\n    response.write(\'"></script>\\n\\n  </body>\\n</html>\', escape=False)'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'gluon.rocket'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of SocketClosed object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of SocketClosed object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of SocketClosed object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of SocketClosed object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of SocketClosed object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of SocketClosed object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of SocketClosed object>'
+p31
+sS'__new__'
+p32
+S'<built-in method __new__ of type object>'
+p33
+sS'__format__'
+p34
+S'<built-in method __format__ of SocketClosed object>'
+p35
+sS'__class__'
+p36
+S"<class 'gluon.rocket.SocketClosed'>"
+p37
+sS'__doc__'
+p38
+S"'Exception for when a socket is closed by the client.'"
+p39
+sS'__getitem__'
+p40
+S"<method-wrapper '__getitem__' of SocketClosed object>"
+p41
+sS'__setstate__'
+p42
+S'<built-in method __setstate__ of SocketClosed object>'
+p43
+sS'__getattribute__'
+p44
+S"<method-wrapper '__getattribute__' of SocketClosed object>"
+p45
+sS'args'
+p46
+S"('Client closed socket.',)"
+p47
+sS'__subclasshook__'
+p48
+S'<built-in method __subclasshook__ of type object>'
+p49
+sS'__unicode__'
+p50
+S'<built-in method __unicode__ of SocketClosed object>'
+p51
+sS'__delattr__'
+p52
+S"<method-wrapper '__delattr__' of SocketClosed object>"
+p53
+sS'__repr__'
+p54
+S"<method-wrapper '__repr__' of SocketClosed object>"
+p55
+sS'__hash__'
+p56
+S"<method-wrapper '__hash__' of SocketClosed object>"
+p57
+ssS'evalue'
+p58
+S'Client closed socket.'
+p59
+sS'frames'
+p60
+(lp61
+(dp62
+S'file'
+p63
+S'/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py'
+p64
+sS'dump'
+p65
+(dp66
+S'self'
+p67
+S'<WSGIWorker(Thread-11, started daemon 140060083087104)>'
+p68
+sS'conn'
+p69
+S'<gluon.rocket.Connection object>'
+p70
+sS'self.run_app'
+p71
+S'<bound method WSGIWorker.run_app of <WSGIWorker(Thread-11, started daemon 140060083087104)>>'
+p72
+ssS'lnum'
+p73
+I1337
+sS'lines'
+p74
+(dp75
+I1332
+S'            # Enter connection serve loop'
+p76
+sI1333
+S'            while True:'
+p77
+sI1334
+S'                if __debug__:'
+p78
+sI1335
+S"                    self.err_log.debug('Serving a request')"
+p79
+sI1336
+S'                try:'
+p80
+sI1337
+S'                    self.run_app(conn)'
+p81
+sI1338
+S'                except:'
+p82
+sI1339
+S'                    exc = sys.exc_info()'
+p83
+sI1340
+S'                    handled = self._handleError(*exc)'
+p84
+sI1341
+S'                    if handled:'
+p85
+ssS'call'
+p86
+S'(self=<WSGIWorker(Thread-11, started daemon 140060083087104)>)'
+p87
+sS'func'
+p88
+S'run'
+p89
+sa(dp90
+g63
+S'/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py'
+p91
+sg65
+(dp92
+S'self'
+p93
+S'<WSGIWorker(Thread-11, started daemon 140060083087104)>'
+p94
+sS'self.environ'
+p95
+S"{'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.5', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'session_id_final=127.0.0.1-41b11f1a-482c-49fd-97...in=127.0.0.1-07f3b0c7-89c4-4bdf-a4ce-fae6222d7c26', 'HTTP_DNT': '1', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0', 'PATH_INFO': '/final/default/see/1', 'QUERY_STRING': '', ...}"
+p96
+sS'sock_file'
+p97
+S'<socket._fileobject object>'
+p98
+sS'environ'
+p99
+S'undefined'
+p100
+sS'self.build_environ'
+p101
+S'<bound method WSGIWorker.build_environ of <WSGIWorker(Thread-11, started daemon 140060083087104)>>'
+p102
+sS'conn'
+p103
+S'<gluon.rocket.Connection object>'
+p104
+ssg73
+I1830
+sg74
+(dp105
+I1825
+S'        else:'
+p106
+sI1826
+S'            sock_file = conn.makefile(BUF_SIZE)'
+p107
+sI1827
+S''
+sI1828
+S'        try:'
+p108
+sI1829
+S'            # Read the headers and build our WSGI environment'
+p109
+sI1830
+S'            self.environ = environ = self.build_environ(sock_file, conn)'
+p110
+sI1831
+S''
+sI1832
+S'            # Handle 100 Continue'
+p111
+sI1833
+S"            if environ.get('HTTP_EXPECT', '') == '100-continue':"
+p112
+sI1834
+S"                res = environ['SERVER_PROTOCOL'] + ' 100 Continue\\r\\n\\r\\n'"
+p113
+ssg86
+S'(self=<WSGIWorker(Thread-11, started daemon 140060083087104)>, conn=<gluon.rocket.Connection object>)'
+p114
+sg88
+S'run_app'
+p115
+sa(dp116
+g63
+S'/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py'
+p117
+sg65
+(dp118
+S'sock_file'
+p119
+S'<socket._fileobject object>'
+p120
+sS'self.read_request_line'
+p121
+S'<bound method WSGIWorker.read_request_line of <W...rker(Thread-11, started daemon 140060083087104)>>'
+p122
+sS'self'
+p123
+S'<WSGIWorker(Thread-11, started daemon 140060083087104)>'
+p124
+sS'request'
+p125
+g100
+ssg73
+I1650
+sg74
+(dp126
+I1645
+S'                                      "wsgiorg.futures": executor.futures})'
+p127
+sI1646
+S''
+sI1647
+S'    def build_environ(self, sock_file, conn):'
+p128
+sI1648
+S'        """ Build the execution environment. """'
+p129
+sI1649
+S'        # Grab the request line'
+p130
+sI1650
+S'        request = self.read_request_line(sock_file)'
+p131
+sI1651
+S''
+sI1652
+S'        # Copy the Base Environment'
+p132
+sI1653
+S'        environ = self.base_environ.copy()'
+p133
+sI1654
+S''
+ssg86
+S'(self=<WSGIWorker(Thread-11, started daemon 140060083087104)>, sock_file=<socket._fileobject object>, conn=<gluon.rocket.Connection object>)'
+p134
+sg88
+S'build_environ'
+p135
+sa(dp136
+g63
+S'/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py'
+p137
+sg65
+(dp138
+S'global SocketClosed'
+p139
+S"<class 'gluon.rocket.SocketClosed'>"
+p140
+ssg73
+I1413
+sg74
+(dp141
+I1408
+S''
+sI1409
+S'        if not d:'
+p142
+sI1410
+S'            if __debug__:'
+p143
+sI1411
+S'                self.err_log.debug('
+p144
+sI1412
+S"                    'Client did not send a recognizable request.')"
+p145
+sI1413
+S"            raise SocketClosed('Client closed socket.')"
+p146
+sI1414
+S''
+sI1415
+S'        self.request_line = d'
+p147
+sI1416
+S''
+sI1417
+S"        # NOTE: I've replaced the traditional method of procedurally breaking"
+p148
+ssg86
+S'(self=<WSGIWorker(Thread-11, started daemon 140060083087104)>, sock_file=<socket._fileobject object>)'
+p149
+sg88
+S'read_request_line'
+p150
+sasS'pyver'
+p151
+S'Python 2.7.6: /usr/bin/python (prefix: /usr)'
+p152
+sS'etype'
+p153
+S"<class 'gluon.rocket.SocketClosed'>"
+p154
+sS'date'
+p155
+S'Sat Nov 21 02:46:33 2015'
+p156
+sS'locals'
+p157
+(dp158
+S'sock_file'
+p159
+S'<socket._fileobject object>'
+p160
+sS'self'
+p161
+S'<WSGIWorker(Thread-11, started daemon 140060083087104)>'
+p162
+sS'd'
+S"''"
+p163
+sssS'traceback'
+p164
+S'Traceback (most recent call last):\n  File "/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py", line 1337, in run\n    self.run_app(conn)\n  File "/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py", line 1830, in run_app\n    self.environ = environ = self.build_environ(sock_file, conn)\n  File "/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py", line 1650, in build_environ\n    request = self.read_request_line(sock_file)\n  File "/home/abhi/Downloads/CourseMaterial/web2Py/web2py/gluon/rocket.py", line 1413, in read_request_line\n    raise SocketClosed(\'Client closed socket.\')\nSocketClosed: Client closed socket.\n'
+p165
+s.
